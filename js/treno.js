@@ -10,4 +10,4 @@ if (age < 18) {
 
 let ticketPrice = (Math.round(km * pricePerKm * 100) / 100).toFixed(2)
 
-console.log(ticketPrice + ' €')
+alert('Costo del biglietto: ' + ticketPrice + ' €')
